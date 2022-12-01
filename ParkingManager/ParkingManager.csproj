@@ -8,6 +8,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\css\toastr.css" />
+    <None Include="wwwroot\js\global.js" />
+    <None Include="wwwroot\js\toastr.js" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="bootstrap" Version="5.2.2" />
     <PackageReference Include="Bootstrap.Less" Version="3.4.1" />
     <PackageReference Include="Dapper" Version="2.0.123" />
@@ -21,10 +27,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ParkingMaganer.Data\ParkingMaganer.Data.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Scripts\" />
   </ItemGroup>
 
 </Project>
